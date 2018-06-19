@@ -256,7 +256,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	background-color: #000000;
 }
 .prt_home_wrapper{
-	background-image:url(../images/content/banner_bg.jpg);
+	background-image:url(../images/content/cinza.jpg);
 	background-position: center center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -270,8 +270,9 @@ input:focus, textarea:focus, select:focus, button:focus {
 	font-size:150px;
 	color: #ffffff;
 	font-weight:bold;
-	background: url(../images/content/banner_text_bg.jpg) no-repeat;
-	-webkit-background-clip: text;
+	#background: url(../images/content/banner_text_bg.jpg) no-repeat;
+        background: #F5F5F5;
+        -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
     background-size: cover;
     background-position: -41px -85px;
